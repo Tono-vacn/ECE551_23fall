@@ -1,0 +1,4 @@
+#success
+printSsData sunspots_data.csv
+printFilteredSsData sunspots_data.csv 71
+printSsPeriod sunspots_data.csv 71

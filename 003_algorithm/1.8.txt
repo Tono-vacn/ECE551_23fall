@@ -1,0 +1,10 @@
+2 rounds of circulates, something like that:
+
+res_list = []
+for i in range(0,N):
+    templist = [-i*i]
+    for j in range(0,i):
+    	templist.append(-i*i+(2*j+1))
+    res_list.append(templist)
+
+print(res_list)
